@@ -1,0 +1,20 @@
+.main ul li{
+    list-style: none;
+    float: left;
+    width: 33%;
+}
+
+.main ul::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.box2 {
+    margin-top: 20px;
+    width: auto;
+}
+.slide{
+    color: red;
+    border-bottom: none;
+}
